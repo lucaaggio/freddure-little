@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-width: 384px;
+}
+body {
+  font-family: sans-serif;
+  width: 384px;
+  max-width: 384px;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 384px;
+  width: 80%;
+}
+p {
+  font-size: 1.2em;
+  margin-top: 1em;
+  padding: 0.3em 0.1em;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1em;
+}
+
+#frase {
+  border: 1px;
+  border-style: dashed;
+}
+.black {
+  height: 3px;
+  width: 50%;
+  background: #000;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+}
+.flexEnd {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
